@@ -1,0 +1,14 @@
+.list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .item {
+    font-size: 40px;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .span {
+    color:green;
+    font-weight: 500;
+  }
